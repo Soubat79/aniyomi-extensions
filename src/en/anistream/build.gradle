@@ -2,6 +2,5 @@ ext {
     extName = 'AniStream'
     extClass = '.AniStream'
     extVersionCode = 1
-    libVersion = '15'
 }
 apply from: "$rootDir/common.gradle"
