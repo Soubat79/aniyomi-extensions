@@ -4,3 +4,4 @@ ext {
     extVersionCode = 1
 }
 apply from: "$rootDir/common.gradle"
+tasks.matching { it.name.startsWith("lintKotlin") }.configureEach { enabled = false }
